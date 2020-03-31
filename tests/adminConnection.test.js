@@ -8,12 +8,12 @@ describe("Connection", () => {
     // série de tests
     beforeAll(async () => {
         // ouvrir un onglet dans le navigateur
-        page = awai global.__BROWSER__.newPage()
+        page = await global.__BROWSER__.newPage()
     }, timeout)
 
     test('admin connection', async () => {
         // charge la page d'accueil
-        await page.goto('http://polr.web-74.com');
+        await page.oto('http://polr.web-74.com');
         await page.waitForSelector('#navbar li a');
         // click sur le lien "About" de la navigation
         await page.evaluate( () => {
