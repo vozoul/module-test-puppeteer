@@ -19,7 +19,7 @@ describe("Connection", () => {
         await page.evaluate( () => {
             Array
                 .from(document.querySelectorAll( '#navbar li a' ))
-                .filter( el => el.textContent === 'Sign In' )[0].click();
+                .filter( el => el.value() === 'Sign In' )[0].click();
         });
         // attendre que le form soit chargé
         await page.waitForSelector('form');
