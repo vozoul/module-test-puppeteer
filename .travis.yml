@@ -5,6 +5,7 @@ node_js:
 
 script:
   - npm test
+  - jest
 
 notifications:
   email:
