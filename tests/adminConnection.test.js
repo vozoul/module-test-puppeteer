@@ -8,7 +8,7 @@ describe("Connection", () => {
     // série de tests
     beforeAll(async () => {
         // ouvrir un onglet dans le navigateur
-        page = await global.__BROWSER__.newPage()
+        page = awai global.__BROWSER__.newPage()
     }, timeout)
 
     test('admin connection', async () => {
