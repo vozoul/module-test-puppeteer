@@ -7,5 +7,4 @@ script:
   - npm test
 
 notifications:
-  email:
-    - vozoul@gmail.com
+  email: true
