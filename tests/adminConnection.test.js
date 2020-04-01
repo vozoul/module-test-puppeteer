@@ -13,10 +13,10 @@ describe("Connection", () => {
 
     test('admin connection', async () => {
         // charge la page d'accueil
-        await page.goto('http://polr.web74.com');
+        await page.goto('http://polr.web-74.com');
         await page.waitForSelector('#navbar li a');
         // click sur le lien "About" de la navigation
-        await page.evaluate( () => {
+        await page.evluate( () => {
             Array
                 .from(document.querySelectorAll( '#navbar li a' ))
                 .filter( el => el.textContent === 'Sign In' )[0].click();
