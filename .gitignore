@@ -1,4 +1,4 @@
 .idea
 node_modules
 tests/img/*
-#!tests/img/.gitkeep
+!tests/img/.gitkeep
