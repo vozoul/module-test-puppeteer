@@ -8,3 +8,5 @@ script:
 
 notifications:
   email: true
+  on_success: always
+  on_failure: always
